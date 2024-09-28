@@ -1,0 +1,183 @@
+body {
+    background-color: #262b21;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 200rem;
+}
+
+.parent {
+    position: relative;
+}
+
+.Character {
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    padding: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+
+.Character p {
+    line-height: 2;
+}
+
+.svg {
+    width: 60%;
+    background-color: rgb(191, 101, 101);
+    padding: 35px 160px 35px 40px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: -35px;
+}
+
+.girl img {
+    width: 520px;
+    height: 580px;
+}
+
+.girl {
+    position: absolute;
+    top: 80px;
+    left: 41rem;
+}
+
+.tv img {
+    width: 580px;
+}
+
+.tv {
+    position: absolute;
+    top: 36rem;
+    left: 76px;
+}
+
+.follow {
+    width: 32%;
+    background-color: #e7a7a7;
+    position: absolute;
+    top: 42.5rem;
+    right: 25px;
+    padding: 80px;
+    color: white;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.badminton img {
+    width: 520px;
+}
+
+.badminton {
+    position: absolute;
+    top: 84.5rem;
+    right: 88px;
+}
+
+.para i {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.para{
+    width: 30%;
+    background-color: #ae9ff5;
+    padding: 50px 115px;
+    position: absolute;
+    top: 91.5rem;
+    left: 26px;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.button {
+    background-color: white;
+    color: #ae9ff5;
+    width: fit-content;
+    padding: 5px 25px;
+    float: right;
+}
+
+.street img {
+    width: 560px;
+}
+
+.street {
+    position: absolute;
+    top: 126.5rem;
+    left: 95px;
+    z-index: -1;
+}
+
+.Contact {
+    background-color: white;
+    width: 520px;
+    position: absolute;
+    top: 133rem;
+    right: 88px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    width: 320px;
+    padding: 10px 20px;
+}
+
+#Email {
+    width: 320px;
+    padding: 10px 20px;
+}
+
+#mes {
+    width: 320px;
+    padding: 10px 20px;
+}
+
+.Contact p {
+    color: white;
+    background-color: #ae9ff5;
+    padding: 10px 25px;
+    font-size: 20px;
+    margin-left: 270px;
+
+
+}
+
+.paragraph {
+    width: 490px;
+    background-color: #ae9ff5;
+    color: white;
+    padding: 30px 20px;
+    margin-top: 50px;
+    margin-bottom: -40px;
+    line-height: 2;
+    margin-left: 75px;
+
+}
+
+.scanner img {
+    width: 150px;
+}
+
+.scanner {
+    color: white;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    position: absolute;
+    top: 180rem;
+    left: 95px;
+}
